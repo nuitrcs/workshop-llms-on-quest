@@ -8,7 +8,8 @@ You can't read them all, so you use an LLM to help you. What it does:
 
 Assumes the existence of file "adverse_event_notes.csv" with the columns:
     patient_id, note
-(a sample exercise: the data file is not included)
+(the assumption is this file should have thousands of entries,
+but we generated a fake one for testing with just a few hundred entries)
 
 Note: this script is for a resource assessment exercise, don't try to run.
 
