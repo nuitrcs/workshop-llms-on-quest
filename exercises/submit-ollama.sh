@@ -123,7 +123,7 @@ export OLLAMA_PORT
 echo $OLLAMA_PORT
 
 module purge
-module load ollama/0.11.4
+module load ollama/0.11.4 # you can use other ollama versions if available
 module load gcc/12.3.0-gcc
 module load mamba/24.3.0
 
